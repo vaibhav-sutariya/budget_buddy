@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 //laptop ip address:portnumber
 // const baseURL = "http://192.168.81.1:3000/api";
-const baseURL = "http://localhost:3000/api";
+// const baseURL = "http://localhost:3000/api";
+const baseURL = "https://budget-buddy-backend-gjlv.onrender.com/api";
 
 //default app color
 Color kBackColor = const Color.fromRGBO(0, 10, 56, 1);
