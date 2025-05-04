@@ -245,7 +245,7 @@ class _HomeScreenState extends State<HomeScreen>
                                     ),
                                   ),
                                   const Text(
-                                    "FinTrack",
+                                    "BudgetBuddy",
                                     style: TextStyle(
                                       color: Colors.black,
                                       fontSize: 22.0,

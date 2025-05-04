@@ -73,7 +73,7 @@ class _SplashScreenState extends State<SplashScreen> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 AutoSizeText(
-                  "Fin Track",
+                  "Budget Buddy",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 40.0,

@@ -438,7 +438,7 @@ class _CreateGroupScreenState extends State<CreateGroupScreen> {
                     ),
                     const SizedBox(height: 8.0),
                     Text(
-                      "( People from your contact list who are using FinTrack :)",
+                      "( People from your contact list who are using BudgetBuddy :)",
                       style: TextStyle(
                         color: Colors.grey.shade500,
                         fontSize: 11.0,
