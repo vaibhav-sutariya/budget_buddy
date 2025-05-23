@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:frontend/screens/login/onboarding_screen.dart';
 import 'package:frontend/screens/login/splash_screen.dart';
+import 'package:frontend/services/notification_service.dart';
 import 'package:frontend/utils/constants.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -15,7 +16,7 @@ final GlobalKey<ScaffoldMessengerState> rootScaffoldMessengerKey =
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   //initialize notification service
-  // await NotificationService().init();
+  await NotificationService().init();
   //app can can only be in portrait mode
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
